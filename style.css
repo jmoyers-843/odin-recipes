@@ -1,0 +1,59 @@
+#front-page-title{
+    color:rgb(166, 160, 204);
+    font-size: 65px;
+    font-family:helvetica, "times new roman", sans-serif;
+}
+
+.front-page-links{
+    color:rgb(13, 104, 69);
+    font-size: 48px;
+    font-family:helvetica, "times new roman", sans-serif;
+}
+
+h1 h2{
+    font-family:"times new roman", times, serif";
+}
+
+h1{
+    color: rgb(97, 51, 30);
+    font-size: 45px;
+    text-align: center;
+}
+
+h2{
+    color: rgb(78, 151, 194);
+    font-size: 35px;
+ }
+h3{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.ingredients,
+.instructions{
+    font-size: 25px;  
+    font-weight: bold;
+}
+
+.extra-instructions{
+    color:rgb(131, 57, 66);
+    font-size: 25px;  
+    font-weight: bold; 
+}
+.ingredients{
+    background: aqua;
+    border: 5px dashed blue;
+
+}
+   
+.recipe-images{
+    background: aquamarine;
+    border: 5px solid pink;
+    }
+
+/*.one {
+    background: pink;
+    border: 3px solid blue;
+    padding: 32px;
+    margin: 12px;
+    */
