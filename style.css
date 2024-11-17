@@ -33,6 +33,7 @@ h3{
 .instructions{
     font-size: 25px;  
     font-weight: bold;
+    max-width: 500px;
 }
 
 .extra-instructions{
@@ -43,13 +44,24 @@ h3{
 .ingredients{
     background: aqua;
     border: 5px dashed blue;
+    padding: 10px;
 
+}
+
+.instructions{
+    background: rgb(196, 110, 188);
+    border: 5px solid rgb(72, 185, 49);
+    padding: 10px;
 }
    
 .recipe-images{
     background: aquamarine;
     border: 5px solid pink;
     }
+li {
+    padding: 8px;
+}
+
 
 /*.one {
     background: pink;
