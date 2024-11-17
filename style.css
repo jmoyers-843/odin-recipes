@@ -14,12 +14,6 @@ h1 h2{
     font-family:"times new roman", times, serif";
 }
 
-h1{
-    color: rgb(97, 51, 30);
-    font-size: 45px;
-    text-align: center;
-}
-
 .instructions.header,
 .ingredients.header{
     color: rgb(78, 194, 78);
@@ -27,11 +21,6 @@ h1{
     margin-top: 0px;
     margin-bottom: 0px;
  }
-h3{
-    font-size: 30px;
-    font-weight: bold;
-}
-
 .ingredients,
 .instructions{
     font-size: 25px;  
