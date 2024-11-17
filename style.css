@@ -20,9 +20,10 @@ h1{
     text-align: center;
 }
 
-h2{
-    color: rgb(78, 151, 194);
-    font-size: 35px;
+.instructions.header,
+.ingredients.header{
+    color: rgb(78, 194, 78);
+    font-size: 55px;
     margin-top: 0px;
     margin-bottom: 0px;
  }
@@ -52,7 +53,7 @@ h3{
 .instructions{
     background: rgb(196, 110, 188);
     border: 5px double rgb(72, 185, 49);
-    padding: 0px 40px;
+    padding: 40px;
 }
    
 .recipe-images{
@@ -62,13 +63,13 @@ h3{
 li {
     padding: 8px;
 }
-.inst-outer-box{
+.instructions.outerbox{
     background: rgb(179, 140, 69);
     border: 5px double rgb(72, 185, 49);
     max-width: 500px;
     margin: 50px;
 }
-.ingred-outer-box{
+.ingredients.outerbox{
     border: 10px solid blue;
     max-width: 490px;
     margin: 50px;
