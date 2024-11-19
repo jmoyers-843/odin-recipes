@@ -9,57 +9,60 @@
     font-size: 48px;
     font-family:helvetica, "times new roman", sans-serif;
 }
-
-h1 h2{
-    font-family:"times new roman", times, serif";
+   
+.recipe-images{
+    background: aquamarine;
+    border: 5px solid pink;
 }
 
-.instructions.header,
-.ingredients.header{
-    color: rgb(78, 194, 78);
+.header{
     font-size: 55px;
-    margin-top: 0px;
-    margin-bottom: 0px;
- }
-.ingredients,
-.instructions{
+    margin: 40px;
+    text-align: center;
+}
+
+.list{
     font-size: 25px;  
     font-weight: bold;
     max-width: 500px;
+    font-family:"times new roman", times, serif;
+    margin: 40px;
+}
+
+li {
+    padding: 8px;
+}
+
+.ingredients .header,
+.ingredients .list{
+    color:blue;
+    border:10px solid;
+    text-shadow: 1px 1px black;
+}
+
+.ingredients{
+    background: aqua;
+    border: 10px solid blue;
+    max-width: 500px;
+    margin: 50px;
+}
+
+.instructions .header,
+.instructions .list{
+    color: rgb(72, 185, 49);
+    text-shadow: 1px 1px black;
+    border: 10px solid;
+}
+
+.instructions{
+    background: rgb(179, 140, 69);
+    border: 5px double rgb(72, 185, 49);
+    max-width: 500px;
+    margin: 50px;
 }
 
 .extra-instructions{
     color:rgb(131, 57, 66);
     font-size: 25px;  
     font-weight: bold; 
-}
-.ingredients{
-    background: aqua;
-    border: 5px solid blue;
-    padding: 40px;
-
-}
-.instructions{
-    background: rgb(196, 110, 188);
-    border: 5px double rgb(72, 185, 49);
-    padding: 40px;
-}
-   
-.recipe-images{
-    background: aquamarine;
-    border: 5px solid pink;
-    }
-li {
-    padding: 8px;
-}
-.instructions.outerbox{
-    background: rgb(179, 140, 69);
-    border: 5px double rgb(72, 185, 49);
-    max-width: 500px;
-    margin: 50px;
-}
-.ingredients.outerbox{
-    border: 10px solid blue;
-    max-width: 490px;
-    margin: 50px;
 }
